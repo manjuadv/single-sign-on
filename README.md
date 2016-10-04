@@ -1,4 +1,13 @@
-This is a single-sign-on solution. This solution was built to demonstrate software architectural skills for an assessment. The key of this solution is the scalability and extendibility implemented using design patters. Other areas like front-end were not focused in this specific solution.
+This is a single-sign-on solution. This solution was built to demonstrate software architectural skills for an assessment. The key of this solution is the scalability and extendibility implemented using design patters. Other areas like front-end were not a focus in this specific solution.
+
+Pelase see Design.doc to get an idea about the design, architecture and usage of design patterns. There is a screen capture in folder "Wink" showing how the solution works. This screen capture can be run by opening wink.htm (flash plug-in needed in the web browser).
+
+Key features
+===================================================================================================================
+1. The solution has been built as an HTTP Module so the solution can be integrated to any ASP.net website by just adding some entries in web.config without writing any code. 
+2. I have integrated the solution with .net built in authentication framework so the authentication mechanism works well with other .net features.
+3. Solution can be configured to run with several possible identity data providers.
+4. Solution can be extented easily to run with new type of identity data providers.
 
 1. Configuring the system
 ===================================================================================================================
