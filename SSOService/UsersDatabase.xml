@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<XmlDbSchema xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Users>
+    <XmlDbUser>
+      <UserID>1</UserID>
+      <Name>Manjula Ranasinghe</Name>
+      <Email>pathmakumaraad@gmail.com</Email>
+      <Telphone>0949309443</Telphone>
+      <Password>abc123</Password>
+      <UserGroups>Admin,Accountent,Everyone</UserGroups>
+      <IsAuthenticaed>false</IsAuthenticaed>
+    </XmlDbUser>
+    <XmlDbUser>
+      <UserID>2</UserID>
+      <Name>Holder Martin</Name>
+      <Email>hmatin@gmail.com</Email>
+      <Telphone>332323233</Telphone>
+      <Password>123abc</Password>
+      <UserGroups>Accountent,Everyone</UserGroups>
+      <IsAuthenticaed>false</IsAuthenticaed>
+    </XmlDbUser>
+    <XmlDbUser>
+      <UserID>3</UserID>
+      <Name>Michal Sukenton</Name>
+      <Email>msukenton@gmail.com</Email>
+      <Telphone>144034333</Telphone>
+      <Password>123abc</Password>
+      <UserGroups>Sales,Everyone</UserGroups>
+      <IsAuthenticaed>false</IsAuthenticaed>
+    </XmlDbUser>
+    <XmlDbUser>
+      <UserID>4</UserID>
+      <Name>Linton Kusker</Name>
+      <Email>lkusker@gmail.com</Email>
+      <Telphone>0954945333</Telphone>
+      <Password>123abc</Password>
+      <UserGroups>Accountent,Sales,Everyone</UserGroups>
+      <IsAuthenticaed>false</IsAuthenticaed>
+    </XmlDbUser>
+  </Users>
+</XmlDbSchema>

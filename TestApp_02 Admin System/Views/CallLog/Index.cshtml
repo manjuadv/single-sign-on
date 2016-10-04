@@ -1,0 +1,43 @@
+﻿@model IEnumerable<TestApp_02_Admin_System.Models.CallLog>
+
+@{
+    ViewBag.Title = "Call history log";
+}
+
+<h2>Call history log</h2>
+
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.CustomerName)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.CalledBy)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.CalledOn)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.IsFeedbackPositive)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.CustomerName)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.CalledBy)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.CalledOn)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.IsFeedbackPositive)
+        </td>
+    </tr>
+}
+
+</table>
