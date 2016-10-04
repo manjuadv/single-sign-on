@@ -63,7 +63,7 @@ Following configuration should be added to web.config file of any website that u
 ===================================================================================================================
 I have used following third party librarie(s) described bellow. The .dll file(s) are in "Lib" folder. All other references are project within the solution.
 	
-	Library			Projects used by						Purpose
+	Library			         Projects used by						          Purpose
 	-----------------	-----------------------------					--------------------------------
 	FizzWare.NBuilder.dll	TestApp_01 Accounting System, TestApp_02 Admin System	 	Test data generation
 
